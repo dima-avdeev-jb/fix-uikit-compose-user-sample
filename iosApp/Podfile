@@ -1,0 +1,7 @@
+target 'iosApp' do
+  use_frameworks!
+  platform :ios, '11.0'
+  pod 'shared', :path => '../shared'
+  pod 'TMMUIKit', :path => '../iOSComponents/TMMUIKit'
+  pod 'TMMChannel', :path => '../iOSComponents/TMMChannel'
+end

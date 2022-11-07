@@ -1,0 +1,16 @@
+PODS:
+  - TMMChannel (0.1.1)
+
+DEPENDENCIES:
+  - TMMChannel (from `../`)
+
+EXTERNAL SOURCES:
+  TMMChannel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TMMChannel: 05ea5f9ba6f2b374a738df8f53ae3fa73f22e6f7
+
+PODFILE CHECKSUM: 7fdca88e1451f8299d080dcacf2a520345b83f2b
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module TMMChannel {
+  umbrella header "TMMChannel-umbrella.h"
+
+  export *
+  module * { export * }
+}

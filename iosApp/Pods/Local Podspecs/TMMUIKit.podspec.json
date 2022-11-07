@@ -1,0 +1,29 @@
+{
+  "name": "TMMUIKit",
+  "version": "0.0.1",
+  "summary": "请简单的介绍一下你的组件 TMMUIKit.",
+  "description": "TODO: 给你的组件添加一段描述文案。",
+  "homepage": "tmm.pages.oa.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenxiong": "478815108@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/cx478815108",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TMMUIKit/Classes/**/**/*",
+  "public_header_files": [
+    "TMMUIKit/Classes/Service/*.h",
+    "TMMUIKit/Classes/Adapter/Output/*.h",
+    "TMMUIKit/Classes/Impl/Output/*.h",
+    "TMMUIKit/Classes/Export/*.h"
+  ],
+  "static_framework": true
+}

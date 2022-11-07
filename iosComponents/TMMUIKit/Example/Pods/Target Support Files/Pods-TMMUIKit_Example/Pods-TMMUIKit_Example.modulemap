@@ -1,0 +1,6 @@
+framework module Pods_TMMUIKit_Example {
+  umbrella header "Pods-TMMUIKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

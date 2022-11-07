@@ -1,0 +1,417 @@
+{
+    "modules": {
+        "sections" : [
+            {
+                "sectionLayoutType" : "composition",
+                "blocks" : [
+                    {
+                        "blockStyleType" : "composition",
+                        "data" : {
+                            "title" : "月升沧海",
+                            "subtitle" : "JoJo英语启蒙",
+                            "overly" : {
+                                "overlyTopleft" : {
+                                    "bgColor" : "#FF00FF98",
+                                    "radius" : "4",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView1" : {
+                                    "bgColor" : "#00FFFF5f",
+                                    "radius" : "30",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView2" : {
+                                    "bgColor" : "#0e98077e",
+                                    "radius" : "4",
+                                    "alpha" : "0.75",
+                                    "shadowColor" : "#8700FF98",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView3" : {
+                                    "bgColor" : "#8700FFf8",
+                                    "radius" : "20",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyTopRight" : {
+                                    "bgColor" : "#80e0009F",
+                                    "radius" : "14",
+                                    "alpha" : "0.9",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "label" : {
+                                    "bgColor" : "#8000009F",
+                                    "radius" : "4",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#000080FF",
+                                    "text" : "📺😋Objective-C 不支持框架内的包. 因此如果同一个框架内的不同包下存在同名的 Kotlin 类, Kotlin 编译器会对类重命名. 这个算法还未稳定, 在不同的 Kotlin 发布版中可能发生变化. 作为替代手段, 你可以将框架内发生名称冲突的 Kotlin 类重命名."
+                                }
+                            }
+                        },
+                        "report_infos": {
+                            "user_name": {
+                                "report_dict": {},
+                                "report_id": "user_name"
+                            },
+                            "container": {
+                                "report_dict": {},
+                                "report_id": "container"
+                            },
+                            "user_avatar": {
+                                "report_dict": {
+                                    "curl": "https:\/\/v.qq.com\/s\/ll\/theme\/page\/v_hotpoint_fash\/BiWmIrfJ.html"
+                                },
+                                "report_id": "user_avatar"
+                            },
+                            "poster": {
+                                "report_dict": {
+                                    "cms_isvip": "0",
+                                    "pic_type": "14"
+                                },
+                                "report_id": "xxx"
+                            }
+                        },
+                        "operations": {
+                            "click": {
+                                "url": "txvideo:\/\/v.qq.com\/VideoDetailActivity?expansion=jump_from%3djimu&isAutoPlay=0&isFullScreen=0&cid=mzc002000zy9zga&vid=c3333qsbcq6&universalStyle=true"
+                            },
+                            "wholeClick": {
+                                "url": "txvideo:\/\/v.qq.com\/ImmersiveCard?wtoeStyle=2&dataKey=immersiveTopVid%3Dd3332pqafde%26vid%3Dd3332pqafde%26jump_source_type%3D0&pageId=olympic_immersive_rec&pageType=detail_operation"
+                            }
+                        },
+                        "id": "c3333qsbcq6",
+                        "flip_infos": {},
+                        "extraData": {}
+                    },
+                    {
+                        "blockStyleType" : "composition",
+                        "data" : {
+                            "title" : "您好！母亲大人",
+                            "subtitle" : "张若昀身陷棋局绝处逢生",
+                            "overly" : {
+                                "overlyTopleft" : {
+                                    "bgColor" : "#0e98077e",
+                                    "radius" : "18",
+                                    "alpha" : "0.9",
+                                    "shadowColor" : "#8700FFf8",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView1" : {
+                                    "bgColor" : "#049FeF5f",
+                                    "radius" : "13",
+                                    "alpha" : "0.97",
+                                    "shadowColor" : "#8000009F",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView2" : {
+                                    "bgColor" : "#0e98077e",
+                                    "radius" : "4",
+                                    "alpha" : "0.75",
+                                    "shadowColor" : "#8700FF98",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView3" : {
+                                    "bgColor" : "#000080FF",
+                                    "radius" : "20",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#8000009F",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyTopRight" : {
+                                    "bgColor" : "#80e0009F",
+                                    "radius" : "14",
+                                    "alpha" : "0.95",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "label" : {
+                                    "bgColor" : "#8000009F",
+                                    "radius" : "4",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#000080FF",
+                                    "text" : "☀️🔥🏀😀❌在概念上，async 就类似于 launch。它启动了一个单独的协程，这是一个轻量级的线程并与其它所有的协程一起并发的工作。不同之处在于 launch 返回一个 Job 并且不附带任何结果值，而 async 返回一个 Deferred —— 一个轻量级的非阻塞 future， 这代表了一个将会在稍后提供结果的 promise。你可以使用 .await() 在一个延期的值上得到它的最终结果， 但是 Deferred 也是一个 Job，所以如果需要的话，你可以取消它。"
+                                }
+                            }
+                        },
+                        "report_infos": {
+                            "poster": {
+                                "report_dict": {
+                                    "end_time": "2022-04-30 22:00:00"
+                                },
+                                "report_id": "poster"
+                            },
+                            "user_avatar": {
+                                "report_dict": {},
+                                "report_id": "user_avatar"
+                            },
+                            "container": {
+                                "report_dict": {
+                                    "ctype": "program"
+                                },
+                                "report_id": "container"
+                            }
+                        },
+                        "operations": {
+                            "click": {
+                                "url": "txvideo:\/\/v.qq.com\/VideoDetailActivity?expansion=jump_from%3djimu&isAutoPlay=0&isFullScreen=0&cid=mzc002000zy9zga&vid=c3333qsbcq6&universalStyle=true"
+                            }
+                        },
+                        "id": "c3333qsbcq6",
+                        "flip_infos": {},
+                        "extraData": {
+                            "vl_version" : "2.0"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "composition",
+                        "data" : {
+                            "title" : "人间正道是沧桑",
+                            "subtitle" : "家国情怀的史诗戶作",
+                            "overly" : {
+                                "overlyTopleft" : {
+                                    "bgColor" : "#0e98077e",
+                                    "radius" : "18",
+                                    "alpha" : "0.9",
+                                    "shadowColor" : "#8700FFf8",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView1" : {
+                                    "bgColor" : "#049FeF5f",
+                                    "radius" : "40",
+                                    "alpha" : "0.97",
+                                    "shadowColor" : "#8000009F",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView2" : {
+                                    "bgColor" : "#0e98077e",
+                                    "radius" : "12",
+                                    "alpha" : "0.95",
+                                    "shadowColor" : "#8700FF98",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView3" : {
+                                    "bgColor" : "#b2de27",
+                                    "radius" : "20",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#8000009F",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyTopRight" : {
+                                    "bgColor" : "#80e0009F",
+                                    "radius" : "14",
+                                    "alpha" : "0.95",
+                                    "shadowColor" : "#8700FF98",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "label" : {
+                                    "bgColor" : "##ff9470e3",
+                                    "radius" : "4",
+                                    "alpha" : "0.9",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#ff0011f0",
+                                    "text" : "考虑一下如果 🔥🏀😀❌ val one = somethingUsefulOneAsync() 这一行和 one.await() 表达式这里在代码中有逻辑错误， 并且程序抛出了异常以及程序在操作的过程中中止，将会发生什么。 通常情况下，一个全局的异常处理者会捕获这个异常，将异常打印成日记并报告给开发者，但是反之该程序将会继续执行其它操作。但是这里我们的 somethingUsefulOneAsync 仍然在后台执行， 尽管如此，启动它的那次操作也会被终止。这个程序将不会进行结构化并发，如下一小节所示。"
+                                }
+                            }
+                        },
+                        "report_infos": {
+                            "poster": {
+                                "report_dict": {
+                                    "end_time": "2022-04-30 22:00:00"
+                                },
+                                "report_id": "poster"
+                            },
+                            "user_avatar": {
+                                "report_dict": {},
+                                "report_id": "user_avatar"
+                            },
+                            "container": {
+                                "report_dict": {
+                                    "ctype": "program"
+                                },
+                                "report_id": "container"
+                            }
+                        },
+                        "operations": {
+                            "click": {
+                                "url": "txvideo:\/\/v.qq.com\/VideoDetailActivity?expansion=jump_from%3djimu&isAutoPlay=0&isFullScreen=0&cid=mzc002000zy9zga&vid=c3333qsbcq6&universalStyle=true"
+                            }
+                        },
+                        "id": "c3333qsbcq6",
+                        "flip_infos": {},
+                        "extraData": {
+                            "vl_version" : "2.0"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "composition",
+                        "data" : {
+                            "title" : "龙岭迷窟",
+                            "subtitle" : "改编白鬼吹灯 潘奥明迷窟探险",
+                            "overly" : {
+                                "overlyTopleft" : {
+                                    "bgColor" : "#0e98077e",
+                                    "radius" : "18",
+                                    "alpha" : "0.9",
+                                    "shadowColor" : "#8700FFf8",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView1" : {
+                                    "bgColor" : "#ff4c30fe",
+                                    "radius" : "10",
+                                    "alpha" : "0.97",
+                                    "shadowColor" : "#8000009F",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView2" : {
+                                    "bgColor" : "##f57c0090",
+                                    "radius" : "12",
+                                    "alpha" : "0.95",
+                                    "shadowColor" : "#8700FF98",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView3" : {
+                                    "bgColor" : "#ab47bc",
+                                    "radius" : "20",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#8000009F",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyTopRight" : {
+                                    "bgColor" : "#80e0009F",
+                                    "radius" : "14",
+                                    "alpha" : "0.95",
+                                    "shadowColor" : "#8700FF98",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "label" : {
+                                    "bgColor" : "##ff9470e3",
+                                    "radius" : "4",
+                                    "alpha" : "0.9",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#4fc3f7",
+                                    "text" : "假设我们在不同的地🔥🏀😀❌方定义了两个进行某种调用🔥🏀😀❌远程服务或者进行计算的挂起函数。我们只假设它们都是有用的，但是实际上它们在这个示例中只是为了该目的而延迟了一秒钟："
+                                }
+                            }
+                        },
+                        "report_infos": {
+                            "poster": {
+                                "report_dict": {
+                                    "end_time": "2022-04-30 22:00:00"
+                                },
+                                "report_id": "poster"
+                            },
+                            "user_avatar": {
+                                "report_dict": {},
+                                "report_id": "user_avatar"
+                            },
+                            "container": {
+                                "report_dict": {
+                                    "ctype": "program"
+                                },
+                                "report_id": "container"
+                            }
+                        },
+                        "operations": {
+                            "click": {
+                                "url": "txvideo:\/\/v.qq.com\/VideoDetailActivity?expansion=jump_from%3djimu&isAutoPlay=0&isFullScreen=0&cid=mzc002000zy9zga&vid=c3333qsbcq6&universalStyle=true"
+                            }
+                        },
+                        "id": "c3333qsbcq6",
+                        "flip_infos": {},
+                        "extraData": {
+                            "vl_version" : "2.0"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "composition",
+                        "data" : {
+                            "title" : "鸡手飞上天",
+                            "subtitle" : "张译八年寻妻演技炸烈",
+                            "overly" : {
+                                "overlyTopleft" : {
+                                    "bgColor" : "#ffa726fe",
+                                    "radius" : "18",
+                                    "alpha" : "0.95",
+                                    "shadowColor" : "#8700FFf8",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView1" : {
+                                    "bgColor" : "#81c784fe",
+                                    "radius" : "10",
+                                    "alpha" : "0.93",
+                                    "shadowColor" : "#8000009F",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView2" : {
+                                    "bgColor" : "##f57c0090",
+                                    "radius" : "12",
+                                    "alpha" : "0.95",
+                                    "shadowColor" : "#8700FF98",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyView3" : {
+                                    "bgColor" : "#ab47bc",
+                                    "radius" : "20",
+                                    "alpha" : "0.8",
+                                    "shadowColor" : "#8000009F",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "overlyTopRight" : {
+                                    "bgColor" : "#80e0009F",
+                                    "radius" : "14",
+                                    "alpha" : "0.95",
+                                    "shadowColor" : "#8700FF98",
+                                    "textColor" : "#ffeeff"
+                                },
+                                "label" : {
+                                    "bgColor" : "##ff9470e3",
+                                    "radius" : "4",
+                                    "alpha" : "0.9",
+                                    "shadowColor" : "#FFFFFF",
+                                    "textColor" : "#4fc3f7",
+                                    "text" : "primary - 用于展示一个给用户的主🔥🏀😀❌要界面元素。🔥🏀😀❌ 它是在您的应用屏幕和组件中显示最频繁的一个颜色。secondary - 用于呈现给用户的次要界面元素。 它给予了更多的方法来强调和区分您的产品。 此颜色是可选的。"
+                                }
+                            }
+                        },
+                        "report_infos": {
+                            "poster": {
+                                "report_dict": {
+                                    "end_time": "2022-04-30 22:00:00"
+                                },
+                                "report_id": "poster"
+                            },
+                            "user_avatar": {
+                                "report_dict": {},
+                                "report_id": "user_avatar"
+                            },
+                            "container": {
+                                "report_dict": {
+                                    "ctype": "program"
+                                },
+                                "report_id": "container"
+                            }
+                        },
+                        "operations": {
+                            "click": {
+                                "url": "txvideo:\/\/v.qq.com\/VideoDetailActivity?expansion=jump_from%3djimu&isAutoPlay=0&isFullScreen=0&cid=mzc002000zy9zga&vid=c3333qsbcq6&universalStyle=true"
+                            }
+                        },
+                        "id": "c3333qsbcq6",
+                        "flip_infos": {},
+                        "extraData": {
+                            "vl_version" : "2.0"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

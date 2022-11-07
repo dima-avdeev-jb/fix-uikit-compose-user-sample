@@ -1,0 +1,25 @@
+{
+  "name": "TMMChannel",
+  "version": "0.1.1",
+  "summary": "请简单的介绍一下你的组件 TMMChannel.",
+  "description": "TODO: 给你的组件添加一段描述文案。",
+  "homepage": "https://github.com/cx478815108",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenxiong": "478815108@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/cx478815108",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "libraries": "c++",
+  "source_files": "TMMChannel/Classes/**/**/*",
+  "resources": "TMMChannel/Assets/data.bundle",
+  "static_framework": true
+}

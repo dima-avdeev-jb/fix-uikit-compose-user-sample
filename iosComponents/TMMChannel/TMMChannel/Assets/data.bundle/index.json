@@ -1,0 +1,177 @@
+{
+    "modules": {
+        "sections" : [
+            {
+                "sectionLayoutType" : "title",
+                "blocks" : [
+                    {
+                        "title" : "你正在追",
+                        "subtitle" : "📺追更与预约",
+                        "data" : {
+                            "title" : "你正在追",
+                            "subtitle" : "📺追更与预约"
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionLayoutType" : "landscroll",
+                "blocks" : [
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "全职高手 第2季 第03集",
+                            "subtitle" : "",
+                            "bottomLeftText" : "全12集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/3r7bnv3gdykfdok1600961724948/498",
+                            "posterRightTopIconURL" : "https://vfiles.gtimg.cn/vupload/20201015/tag_vip_x2.png?max_age=7776000"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "诛仙 第03集",
+                            "subtitle" : "",
+                            "bottomLeftText" : "更新至03集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/mzc00200kwy29cd1658022397952/498",
+                            "posterRightTopIconURL" : "https://vfiles.gtimg.cn/vupload/20201015/tag_vip_x2.png?max_age=7776000"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "月升沧海05集",
+                            "subtitle" : "",
+                            "bottomLeftText" : "更新至03集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/mzc00200vmd652y1656904220599/498",
+                            "posterRightTopIconURL" : "https://vfiles-raw.gtimg.cn/vupload/20201015/tag_trailer_x2.png"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "一念永恒 第57集",
+                            "subtitle" : "",
+                            "bottomLeftText" : "更新至57集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/ww18u675tfmhas61659492733721/498",
+                            "posterRightTopIconURL" : ""
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "西行纪 第4季 第12集",
+                            "subtitle" : "",
+                            "bottomLeftText" : "全12集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/mzc0020071vnhn91655259720738/498",
+                            "posterRightTopIconURL" : ""
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "斗破苍穹年番",
+                            "subtitle" : "",
+                            "bottomLeftText" : "更新至03集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/mzc0020027yzd9e1656210134519/0",
+                            "posterRightTopIconURL" : ""
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionLayoutType" : "title",
+                "blocks" : [
+                    {
+                        "title" : "重磅热播",
+                        "subtitle" : "陪你浪漫过七夕",
+                        "data" : {
+                            "title" : "重磅热播",
+                            "subtitle" : "陪你浪漫过七夕"
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionLayoutType" : "tile",
+                "blocks" : [
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "您好！母亲大人",
+                            "subtitle" : "董洁尹昉演绎感人母子情",
+                            "bottomLeftText" : "全30集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/mzc00200h3bz61u1632651678189/332",
+                            "posterRightTopIconURL" : "https://vfiles.gtimg.cn/vupload/20201015/tag_vip_x2.png?max_age=7776000"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "大明宫词",
+                            "subtitle" : "陈红周迅饰演最美太平公主",
+                            "bottomLeftText" : "全37集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/rhgrxtiuittw0j21658125456424/332",
+                            "posterRightTopIconURL" : "https://vfiles-raw.gtimg.cn/vupload/20201015/tag_trailer_x2.png"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "庆余年",
+                            "subtitle" : "张若昀身陷棋局绝处逢生",
+                            "bottomLeftText" : "全46集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/rjae621myqca41h1574825567/332",
+                            "posterRightTopIconURL" : "https://vfiles.gtimg.cn/vupload/20201015/tag_vip_x2.png?max_age=7776000"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "人间正道是沧桑",
+                            "subtitle" : "家国情怀的史诗巨作",
+                            "bottomLeftText" : "全46集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/iqses07w40paa6r1657871678799/332",
+                            "posterRightTopIconURL" : "https://vfiles-raw.gtimg.cn/vupload/20201015/tag_trailer_x2.png"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "鸡毛飞上天",
+                            "subtitle" : "张译八年寻妻演技炸裂",
+                            "bottomLeftText" : "全55集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/7ce5noezvafma271560398798/332",
+                            "posterRightTopIconURL" : "https://vfiles.gtimg.cn/vupload/20201015/tag_vip_x2.png?max_age=7776000"
+                        }
+                    },
+                    {
+                        "blockStyleType" : "poster",
+                        "data" : {
+                            "title" : "龙岭迷窟",
+                            "subtitle" : "改编自鬼吹灯 潘粤明迷窟探险",
+                            "bottomLeftText" : "全18集",
+                            "posterURL" : "https://puui.qpic.cn/vcover_hz_pic/0/mzc00200q06w7zx1586867563/332",
+                            "posterRightTopIconURL" : "https://vfiles.gtimg.cn/vupload/20201015/tag_vip_x2.png?max_age=7776000"
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionLayoutType" : "video",
+                "blocks" : [
+                    {
+                        "blockStyleType" : "video",
+                        "data" : {
+                            "title" : "奔跑吧兄弟 第5季",
+                            "subtitle" : "沈腾 贾玲 真人大战",
+                            "descTitle" : "沈腾机制表演：：“疼，割耳”",
+                            "posterURL" : "https://puui.qpic.cn/vpic_cover/t0036pr4mut/t0036pr4mut_hz.jpg/1080",
+                            "smallCoverURL" : "https://puui.qpic.cn/vcover_vt_pic/0/yy362qr6q1hyr81t1444949722.jpg/260"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

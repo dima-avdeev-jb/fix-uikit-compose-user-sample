@@ -1,0 +1,28 @@
+PODS:
+  - shared (1.0):
+    - TMMChannel
+    - TMMUIKit
+  - TMMChannel (0.1.1)
+  - TMMUIKit (0.0.1)
+
+DEPENDENCIES:
+  - shared (from `../shared`)
+  - TMMChannel (from `../iOSComponents/TMMChannel`)
+  - TMMUIKit (from `../iOSComponents/TMMUIKit`)
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+  TMMChannel:
+    :path: "../iOSComponents/TMMChannel"
+  TMMUIKit:
+    :path: "../iOSComponents/TMMUIKit"
+
+SPEC CHECKSUMS:
+  shared: 6807bac54e0eaf70481b20c7d82541b8cc7b5d06
+  TMMChannel: 05ea5f9ba6f2b374a738df8f53ae3fa73f22e6f7
+  TMMUIKit: 2d84b30a34e1229a10c3d0bdb2c6385e6ef61fc2
+
+PODFILE CHECKSUM: 875a844fef6cf19174e959da526af0a8d582d8a3
+
+COCOAPODS: 1.11.2

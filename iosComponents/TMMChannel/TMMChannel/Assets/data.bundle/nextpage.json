@@ -1,0 +1,51 @@
+{
+    "modules": {
+        "sections" : [
+            {
+                "sectionLayoutType" : "video",
+                "blocks" : [
+                    {
+                        "blockStyleType" : "video",
+                        "data" : {
+                            "title" : "夜色倾心",
+                            "subtitle" : "沈腾 贾玲 真人大战",
+                            "descTitle" : "反派少爷爱上我",
+                            "posterURL" : "https://puui.qpic.cn/tv/0/15589990_460360/0",
+                            "smallCoverURL" : "https://puui.qpic.cn/vcover_vt_pic/0/yy362qr6q1hyr81t1444949722.jpg/260"
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionLayoutType" : "video",
+                "blocks" : [
+                    {
+                        "blockStyleType" : "video",
+                        "data" : {
+                            "title" : "陈情令",
+                            "subtitle" : "东方仙侠 游戏改编",
+                            "descTitle" : "肖战王一博共闯侠义江湖",
+                            "posterURL" : "https://puui.qpic.cn/media_img/lena/PICas10q4_360_460/0",
+                            "smallCoverURL" : "https://puui.qpic.cn/vcover_vt_pic/0/yy362qr6q1hyr81t1444949722.jpg/260"
+                        }
+                    }
+                ]
+            },
+            {
+                "sectionLayoutType" : "video",
+                "blocks" : [
+                    {
+                        "blockStyleType" : "video",
+                        "data" : {
+                            "title" : "一起同过窗",
+                            "subtitle" : "高分黑马神剧",
+                            "descTitle" : "鲜肉小花演绎校园纯爱",
+                            "posterURL" : "https://puui.qpic.cn/media_img/lena/PIC6zw213_360_460/0",
+                            "smallCoverURL" : "https://puui.qpic.cn/vcover_vt_pic/0/yy362qr6q1hyr81t1444949722.jpg/260"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
