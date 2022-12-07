@@ -1,11 +1,10 @@
 package com.tmm.listsample.models
 
-import cocoapods.TMMChannel.TMMBaseViewModel
-import cocoapods.TMMChannel.TMMCompositionViewModel
-import cocoapods.TMMChannel.TMMFeedListLoader
-import cocoapods.TMMChannel.TMMFeedListLoaderContext
+import cocoapods.TMMChannel.*
 import com.tmm.listsample.models.impl.JSONCompositionModel
 import com.tmm.listsample.models.impl.NativeCompositionModel
+import kotlinx.cinterop.CPointer
+import kotlinx.cinterop.CValue
 import kotlinx.cinterop.useContents
 import platform.CoreGraphics.CGSizeMake
 import platform.UIKit.UIScreen
@@ -61,7 +60,17 @@ private fun createModelWithBlock(block: Map<String, *>?): IBaseViewModel? {
 internal actual fun fetchCompositionModels(useJSON: Boolean, callback: (List<IBaseViewModel>) -> Unit) {
     val context = TMMFeedListLoaderContext();
     val sizeWidth = UIScreen.mainScreen.bounds.useContents { size.width };
-    context.setCollectionViewSize(CGSizeMake(sizeWidth, TMMFloatMax));
+    val delegate = CGSizeMake(sizeWidth, TMMFloatMax)
+    context.setCollectionViewSize(object : CValue<CGSize>() {
+        override val align: Int get() = delegate.align
+        override val size: Int get() = delegate.size
+        override fun place(placement: CPointer<CGSize>): CPointer<CGSize> {
+//            val result = delegate.place(object: CPointer<>)//todo
+//            return result
+            return placement
+        }
+
+    });
 
     if (useJSON) {
         TMMFeedListLoader.fetchNoImageJSONWithContext(context, isMore = false, success = {

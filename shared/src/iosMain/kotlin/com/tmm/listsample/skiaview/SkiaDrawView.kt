@@ -7,6 +7,7 @@ import androidx.compose.ui.input.pointer.PointerType
 import androidx.compose.ui.input.pointer.toCompose
 import androidx.compose.ui.unit.Constraints
 import cocoapods.TMMUIKit.TMMUIView
+import kotlinx.cinterop.CPointer
 import kotlinx.cinterop.CValue
 import kotlinx.cinterop.useContents
 import kotlinx.coroutines.Dispatchers
@@ -35,7 +36,7 @@ internal val TMMViewContentScaleFactor by lazy {
  */
 class SkiaDrawView : TMMUIView {
     @OverrideInit
-    constructor(frame: CValue<CGRect>) : super(frame)
+    constructor(frame: kotlinx.cinterop.CValue<cocoapods.TMMUIKit.CGRect>) : super(frame)
 
     private var isDisposed = false
 
@@ -168,9 +169,20 @@ class SkiaDrawView : TMMUIView {
     }
 
     companion object {
-        internal fun create(content: @Composable () -> Unit) =
-            SkiaDrawView(CGRectMake(0.0, 0.0, 0.0, 0.0)).apply {
+        internal fun create(content: @Composable () -> Unit): SkiaDrawView {
+            val delegate = CGRectMake(0.0, 0.0, 0.0, 0.0)
+            return SkiaDrawView(object : CValue<cocoapods.TMMUIKit.CGRect>() {
+                override val align: Int
+                    get() = delegate.align
+                override val size: Int
+                    get() = delegate.size
+
+                override fun place(placement: CPointer<cocoapods.TMMUIKit.CGRect>): CPointer<cocoapods.TMMUIKit.CGRect> {
+                    return placement//todo
+                }
+            }).apply {
                 setContent(content)
             }
+        }
     }
 }
